@@ -5,11 +5,11 @@ Vagrant works as a Virtual Machine orchestrator. Since Docker for Windows has so
 
 ## Requirements
 
-- (VirtualBox)[https://www.virtualbox.org/wiki/Downloads]
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-- (Vagrant)[https://www.vagrantup.com/downloads.html]
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 
-## Getting Start
+## Getting start
 
 - Disable the Hyper-V
 
@@ -22,3 +22,7 @@ Vagrant works as a Virtual Machine orchestrator. Since Docker for Windows has so
 - Access the Vagrant Virtual Machine created related to **vagrantfile**
 
 `vagrant ssh`
+
+- After the first time
+
+`vagrant reload`
